@@ -66,7 +66,7 @@ def solve_3sat(file_path):
     return False, None, satisfied_count
 
 # Example usage:
-file_path = r"C:\Users\Vedaang\Desktop\Research\uf20-026.cnf"
+file_path = r"Add_your_CNF_File_Path_Here"
 result, assignment, satisfied_count = solve_3sat(file_path)
 
 if result:
